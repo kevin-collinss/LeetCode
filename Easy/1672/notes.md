@@ -1,4 +1,8 @@
-Looking across solutions I can see Goroutines are a fast and commonly used method *point of research here* "A WaitGroup is used to wait for a collection of goroutines to finish executing. The Add(1) method increments the WaitGroup's counter by one, indicating that one more goroutine is being launched.
+Looking across solutions I can see Goroutines are a fast and commonly used method *point of research here* 
+
+Here is one such example -- 
+
+"A WaitGroup is used to wait for a collection of goroutines to finish executing. The Add(1) method increments the WaitGroup's counter by one, indicating that one more goroutine is being launched.
 
 For each account in the accounts slice, a goroutine is launched that sums up the values of the account and sends the result to the channel ch.
 
