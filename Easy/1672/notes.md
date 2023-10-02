@@ -44,6 +44,4 @@ func maximumWealth(accounts [][]int) int {
 	}
 
 	return maxSum
-}```
-
-"
+}
