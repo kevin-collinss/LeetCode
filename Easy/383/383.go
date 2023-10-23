@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package easy
 
 func canConstruct(ransomNote string, magazine string) bool {
 
@@ -16,8 +14,6 @@ func canConstruct(ransomNote string, magazine string) bool {
 		}
 	}
 
-	fmt.Println(mapR)
-
 	for _, v := range mapR {
 		if v > 0 {
 			return false
@@ -25,8 +21,4 @@ func canConstruct(ransomNote string, magazine string) bool {
 	}
 
 	return true
-}
-
-func main() {
-	fmt.Println(canConstruct("fihjjjjei", "hjibagacbhadfaefdjaeaebgi"))
 }

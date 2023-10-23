@@ -3,8 +3,8 @@ Runtime
 Beats 58.57%of users with Go
 
 Memory
-3.98MB
-Beats 24.29%of users with Go
+3.85MB
+Beats 83.46%of users with Go
 
 Method
 1) iterate through ransomnote
