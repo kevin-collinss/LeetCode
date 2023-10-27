@@ -1,10 +1,10 @@
-Runtime
-5ms
-Beats 88.55% of users with Go
+Runtime   
+5ms   
+Beats 88.55% of users with Go   
 
-Memory
-4.41MB
-Beats 17.59% of users with Go
+Memory   
+4.41MB    
+Beats 17.59% of users with Go   
 
 Notes
 
