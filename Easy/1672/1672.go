@@ -1,3 +1,5 @@
+package easy
+
 func maximumWealth(accounts [][]int) int {
     final := 0
     for i := len(accounts)-1; i >=0; i-- {

@@ -1,3 +1,5 @@
+package easy
+
 func runningSum(nums []int) []int {
     length := len(nums)
     output := make([]int, length)
