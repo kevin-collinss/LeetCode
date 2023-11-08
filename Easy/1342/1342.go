@@ -1,4 +1,4 @@
-package easy
+package Easy
 
 func numberOfSteps(num int) int {
 	if num == 0 {
@@ -7,14 +7,14 @@ func numberOfSteps(num int) int {
 
 	result := 0
 	for num > 0 {
-        //bitwise & operator
+		//bitwise & operator
 		if num&1 == 1 {
 			result += 2
 		} else {
 			result += 1
 		}
-        
-        //bitwise shift
+
+		//bitwise shift
 		num >>= 1
 	}
 

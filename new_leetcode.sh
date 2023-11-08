@@ -19,7 +19,7 @@ cd "$difficulty/$leet_id" || exit 1
 
 # Create a Go file with a basic template
 cat > "$leet_id""$language" << EOF
-package "$difficulty"
+package $difficulty
 
 EOF
 

@@ -1,4 +1,4 @@
-package easy
+package Easy
 
 func commonFactors(a int, b int) int {
 

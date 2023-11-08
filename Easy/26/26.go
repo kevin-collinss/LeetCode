@@ -1,4 +1,4 @@
-package easy
+package Easy
 
 func removeDuplicates(nums []int) int {
 	count := 0

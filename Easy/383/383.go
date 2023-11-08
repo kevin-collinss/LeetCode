@@ -1,4 +1,4 @@
-package easy
+package Easy
 
 func canConstruct(ransomNote string, magazine string) bool {
 
