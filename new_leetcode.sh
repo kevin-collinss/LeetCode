@@ -33,7 +33,7 @@ Beats __% of users with __
 
 Memory   
 _MB   
-Beats % of users with __   
+Beats __% of users with __   
 
 Notes   
 EOF
