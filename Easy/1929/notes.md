@@ -1,11 +1,12 @@
 # Notes   
 
 Runtime   
-_ms   
-Beats __% of users with __   
+4ms   
+Beats 91.8% of users with Go   
 
 Memory   
-_MB   
-Beats __% of users with __   
+5.6MB   
+Beats 41.6% of users with Go   
 
 Notes   
+append() seems to be slow
