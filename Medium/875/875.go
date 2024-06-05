@@ -1,20 +1,10 @@
-package Medium
-
 import "math"
 
 func minEatingSpeed(piles []int, h int) int {
-
-	high := 0
 	low := 1
-
-	for _, val := range piles {
-		if val > high {
-			high = val
-		}
-	}
+	high := max(piles)
 
 	for low < high {
-		//set variables
 		k := low + (high-low)/2
 		hours := 0
 
@@ -22,13 +12,21 @@ func minEatingSpeed(piles []int, h int) int {
 			hours += int(math.Ceil(float64(pile) / float64(k)))
 		}
 
-		if hours <= h {
-			high = k
-		} else {
+		if hours > h {
 			low = k + 1
+		} else {
+			high = k
 		}
-
 	}
 	return high
+}
 
+func max(piles []int) int {
+	max := 1
+	for _, val := range piles {
+		if val > max {
+			max = val
+		}
+	}
+	return max
 }
