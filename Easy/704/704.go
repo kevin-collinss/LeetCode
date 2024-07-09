@@ -6,7 +6,6 @@ func search(nums []int, target int) int {
 	high := len(nums)
 
 	for low < high {
-
 		med := low + (high-low)/2
 		val := nums[med]
 
